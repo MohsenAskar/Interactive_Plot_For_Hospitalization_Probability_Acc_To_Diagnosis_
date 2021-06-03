@@ -1,5 +1,4 @@
 # aim is to make interactive plots which can both used locally and in html 
-# see: https://towardsdatascience.com/how-to-create-a-plotly-visualization-and-embed-it-on-websites-517c1a78568b 
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -13,8 +12,9 @@ fig = px.scatter(data, x="hovedtilstand", y="Prob. for hosp.", size="Prob. for h
 fig.update_layout(template='plotly_white') # or plotly_dark
 fig.show()
 
-# make HTML: 1. way to have plotly account (payed) 2. is to upload it via github
-# uploading via github 
+# create html plot 
 import plotly.io as pio
 pio.write_html(fig, file='index.html', auto_open=True) #ok
+
+# upload to github repository
 
