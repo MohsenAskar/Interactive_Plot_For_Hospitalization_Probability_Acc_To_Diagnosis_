@@ -1,2 +1,2 @@
 # Interactive_Plot_For_Hospitalization_Probability_Acc_To_Diagnosis_
-The plot represents the probability to stay in a hospital more than one day considering the diagnosis.
+The plot represents the probability to stay in a hospital more than one day considering the diagnosis. The is aggregated from the Norwegian hospital data (aka the Norwegian Patient Register NPR) in three years (2012-2014). The outcome is defined as if the patient stayed in the hospital for one day or more. Colors in the graph indicate the different ICD-10 classification classes. For more on ICD-10, please visit https://www.icd10data.com/ICD10CM/Codes.
